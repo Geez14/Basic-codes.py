@@ -3,11 +3,10 @@
 for i in range(5):
     A = 5-i
     print("tries left",A)
-    a= str(input("input string: "))
-    b= len(a)
-    c = "Do you want to try again? y/n"
-    if b%2 == 0:
-        print("Even")
+    Input = (input("input string: "))
+    Length = len(Input)
+    if Length%2 == 0:
+        print("Length of string is 'Even'")
     else:
-        print("odd")
+        print("Length of string is 'Odd'")
 print("Reload this programm to use it again.")
